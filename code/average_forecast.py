@@ -90,7 +90,7 @@ def run_gbrt_grid(x_train, x_test, y_train, y_test):
   print("MSE of Predicting Average")
   print("Average MSE", mean_squared_error(y_test, [np.mean(y_train)] * len(y_test)))
 
-  print(grid.best_params_))
+  print(grid.best_params_)
 
 def run_mlp(x_train, x_test, y_train, y_test):
   print("\nTraining MLP")
