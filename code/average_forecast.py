@@ -14,13 +14,14 @@ from sklearn.model_selection import train_test_split
 # Note: data has the following form:
 # [timestamp,u,v,ws,wd,energy]
 def load_data(filepath, gap, hours):
-  # print("Loading Data"
+  # print("Loading Data")
   data = defaultdict(list)
   historical = defaultdict(list)
 
   #with open(filepath, 'rb') as file:
-  with open(filepath, 'r') as file:
-    reader = csv.reader(file)
+  print(filepath)
+  with open(filepath, 'r') as ifile:
+    reader = csv.reader(ifile)
     next(reader)
 
     for row in reader:

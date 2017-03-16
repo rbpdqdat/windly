@@ -1,0 +1,27 @@
+# windly
+AI for predicting wind power from historical wind data and wind forecasts
+
+# Installation
+
+<<<<<<< HEAD
+Using python version 3.4 and created a virtual environment to install all dependencies.
+conda create -n wind python=3.4 ipykernel
+source activate wind
+conda install numpy pandas matplotlib seaborn sci-kit-learn
+=======
+Using python version 3.5 and created a virtual environment to install all dependencies.
+
+```conda create -n wind python=3.5 ipykernel```
+
+```source activate wind```
+
+```conda install numpy pandas matplotlib seaborn sci-kit-learn```
+>>>>>>> 7704770f8a98f360ed231268c3458413d6d6f730
+
+# License
+
+v1.0.1 under [MIT](https://opensource.org/licenses/MIT) License
+
+# Support and Credits
+
+Code originated from avished1013. 
