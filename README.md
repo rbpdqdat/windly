@@ -4,9 +4,12 @@ AI for predicting wind power from historical wind data and wind forecasts
 # Installation
 
 Using python version 3.4 and created a virtual environment to install all dependencies.
-conda create -n wind python=3.4 ipykernel
-source activate wind
-conda install numpy pandas matplotlib seaborn sci-kit-learn
+
+```conda create -n wind python=3.4 ipykernel```
+
+```source activate wind```
+
+```conda install numpy pandas matplotlib seaborn sci-kit-learn```
 
 # License
 
