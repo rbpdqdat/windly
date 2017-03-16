@@ -18,7 +18,8 @@ def load_data(filepath, gap, hours):
   data = defaultdict(list)
   historical = defaultdict(list)
 
-  with open(filepath, 'rb') as file:
+  #with open(filepath, 'rb') as file:
+  with open(filepath, 'r') as file:
     reader = csv.reader(file)
     next(reader)
 
