@@ -3,9 +3,9 @@ AI for predicting wind power from historical wind data and wind forecasts
 
 # Installation
 
-Using python version 3.5 and created a virtual environment to install all dependencies.
+Using python version 3.4 and created a virtual environment to install all dependencies.
 
-```conda create -n wind python=3.5 ipykernel```
+```conda create -n wind python=3.4 ipykernel```
 
 ```source activate wind```
 
